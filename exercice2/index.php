@@ -5,24 +5,24 @@
 // Bonus : L'écrire de deux manières différentes.
 // 1ERE ///////////////////////////////////////////////////
 $isEasy = false;
-if ($isEasy === true) {
-    echo (" C'est facile!!");
-} else {
-    echo (" C'est difficile!!");
-}
+// if ($isEasy === true) {
+//     $printable = "C'est facile!!";
+// } else {
+//     $printable = "C'est difficile!!";
+// }
 // 2EME////////////////////////////////////////////////////
-$isEasy = false;
-if ($isEasy) {
-    echo (" C'est facile!!");
-} else {
-    echo (" C'est difficile!!");
-}
+// $isEasy = false;
+// if ($isEasy) {
+//     $printable = "C'est facile !!";
+// } else {
+//     $printable = "C'est difficile !!";
+// }
 ///////////////////////////////////////////////////////////
-if (!$isEasy) {
-    echo (" C'est difficile!!");
-} else {
-    echo (" C'est facile!!");
-}
+// if (!$isEasy) {
+//    $printable (" C'est difficile!!");
+// } else {
+//    $printable (" C'est facile!!");
+// }
 ?>
 
 
