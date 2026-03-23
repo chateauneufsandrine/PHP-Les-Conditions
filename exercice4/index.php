@@ -20,44 +20,44 @@
 
 $magnitude = 3;
 
-switch ($magnitude) {
-    case 1:
-        $printable = "Micro-séisme impossible à ressentir";
-        break;
+// switch ($magnitude) {
+//     case 1:
+//         $printable = "1Micro-séisme impossible à ressentir";
+//         break;
 
-    case 2:
-        $printable = "Ne cause pas de dégats mais commence à pouvoir être légèrement ressenti";
-        break;
+//     case 2:
+//         $printable = "2Ne cause pas de dégats mais commence à pouvoir être légèrement ressenti";
+//         break;
 
-    case 3:
-        $printable = "Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats";
-        break;
+//     case 3:
+//         $printable = "3Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats";
+//         break;
 
-    case 4:
-        $printable = "Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats";
-        break;
+//     case 4:
+//         $printable = "4Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats";
+//         break;
 
-    case 5:
-        $printable = "Séisme capable d'engendrer des dégats importants sur de vieux bâtiments ou bien des bâtiments 
-      présentants des défauts de construction. Peu de dégats sur des bâtiments modernes.";
-        break;
+//     case 5:
+//         $printable = "5Séisme capable d'engendrer des dégats importants sur de vieux bâtiments ou bien des bâtiments 
+//       présentants des défauts de construction. Peu de dégats sur des bâtiments modernes.";
+//         break;
 
-    case 6:
-        $printable = "Fort séisme capable d'engendrer des destructions majeures sur une large distance (180 km) autour de l'épicentre.";
-        break;
+//     case 6:
+//         $printable = "6Fort séisme capable d'engendrer des destructions majeures sur une large distance (180 km) autour de l'épicentre.";
+//         break;
 
-    case 7:
-        $printable = "Séisme capable de destructions majeures à modérées sur une très large zone en fonction de la distance.";
-        break;
+//     case 7:
+//         $printable = "7Séisme capable de destructions majeures à modérées sur une très large zone en fonction de la distance.";
+//         break;
 
-    case 8:
-        $printable = "Séisme capable de destructions majeures sur une très large zone de plusieurs centaines de kilomètres.";
-        break;
+//     case 8:
+//         $printable = "8Séisme capable de destructions majeures sur une très large zone de plusieurs centaines de kilomètres.";
+//         break;
 
-    case 9:
-        $printable = "Séisme capable de tout détruire sur une très vaste zone.";
-        break;
-}
+//     case 9:
+//         $printable = "9Séisme capable de tout détruire sur une très vaste zone.";
+//         break;
+// }
 ?>
 
 
@@ -75,58 +75,45 @@ switch ($magnitude) {
     <?php switch ($magnitude) {
 
         case 1: ?>
-            <p>Micro-séisme impossible à ressentir</p>
+            <p>1Micro-séisme impossible à ressentir</p>
         <?php break;
 
         case 2: ?>
 
-
-
-
-
-            <p>"Ne cause pas de dégats mais commence à pouvoir être légèrement ressenti"</p>
+            <p>"2Ne cause pas de dégats mais commence à pouvoir être légèrement ressenti"</p>
         <?php break;
 
         case 3: ?>
-            <p>"Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats"</p>
+            <p>"3Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats"</p>
         <?php break;
 
         case 4: ?>
-            <p>"Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats"</p>
+            <p>"4Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats"</p>
         <?php break;
 
         case 5: ?>
 
-
-            <p> "Séisme capable d'engendrer des dégats importants sur de vieux bâtiments ou bien des bâtiments
+            <p> "5Séisme capable d'engendrer des dégats importants sur de vieux bâtiments ou bien des bâtiments
                 présentants des défauts de construction. Peu de dégats sur des bâtiments modernes."</p>
         <?php break;
 
         case 6:  ?>
 
-
-
-            <p>"Fort séisme capable d'engendrer des destructions majeures sur une large distance (180 km) autour de l'épicentre."</p>
+            <p>"6Fort séisme capable d'engendrer des destructions majeures sur une large distance (180 km) autour de l'épicentre."</p>
         <?php break;
 
         case 7:  ?>
 
-
-            <p>"Séisme capable de destructions majeures à modérées sur une très large zone en fonction de la distance."</p>
+            <p>"7Séisme capable de destructions majeures à modérées sur une très large zone en fonction de la distance."</p>
         <?php break;
 
         case 8: ?>
 
-
-
-            <p>"Séisme capable de destructions majeures sur une très large zone de plusieurs centaines de kilomètres."</p>
+            <p>"8Séisme capable de destructions majeures sur une très large zone de plusieurs centaines de kilomètres."</p>
         <?php break;
 
         case 9: ?>
-
-
-
-            <p>"Séisme capable de tout détruire sur une très vaste zone."</p>
+            <p>"9Séisme capable de tout détruire sur une très vaste zone."</p>
             <?php break;
             ?>
     <?php } ?>

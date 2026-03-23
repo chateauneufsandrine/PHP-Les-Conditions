@@ -14,18 +14,18 @@
 $age = 12;
 $gender = "Homme";
 
-if ($age >= 18 && $gender === "Femme") {
-    $printable = "Vous êtes une femme et vous êtes majeur";
-}
-if ($age >= 18 && $gender === "Homme") {
-    $printable = "Vous êtes un homme et vous êtes majeur";
-}
-if ($age <= 18 && $gender === "Femme") {
-    $printable = "Vous êtes une femme et vous êtes mineur";
-}
-if ($age <= 18 && $gender === "Homme") {
-    $printable = "Vous êtes un homme et vous êtes mineur";
-}
+// if ($age >= 18 && $gender === "Femme") {
+//     $printable = "Vous êtes une femme et vous êtes majeur";
+// }
+// if ($age >= 18 && $gender === "Homme") {
+//     $printable = "Vous êtes un homme et vous êtes majeur";
+// }
+// if ($age <= 18 && $gender === "Femme") {
+//     $printable = "Vous êtes une femme et vous êtes mineur";
+// }
+// if ($age <= 18 && $gender === "Homme") {
+//     $printable = "Vous êtes un homme et vous êtes mineur";
+// }
 
 ?>
 
