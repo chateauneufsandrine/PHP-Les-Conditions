@@ -11,8 +11,21 @@
 // Vous êtes une femme et vous êtes majeur
 // Vous êtes une femme et vous êtes mineur
 // Gérer tous les cas.
+$age = 30;
+$gender = "Femme";
 
-
+if ($age>=18 || $gender==="Femme") {
+    echo("<h1>Vous êtes une femme et vous êtes majeur</h1>");
+}
+if($age>=18 || $gender!="Femme") {
+    echo("Vous êtes un homme et vous êtes majeur");
+}
+if($age<=18 || $gender==="Femme") {
+    echo("Vous êtes une femme et vous êtes mineur");
+}
+if($age>=18 || $gender!="Femme") {
+    echo("Vous êtes un homme et vous êtes majeur");
+}
 ?>
 
 
@@ -24,6 +37,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1><?= "hello" ?></h1>
 </body>
 </html>
